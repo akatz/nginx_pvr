@@ -25,11 +25,14 @@ your /etc/nginx/ directory in your homebrew root.
 
 change any references to me in the file "akatz"
 change any path references from /Users/akatz/Developer to your homebrew root
+change the port numbers in the upstream blocks to reflect your local
+setup
 
 Add DNS entries in your router for the server names configured. In my file they are:
 sab
 couchpotato
 sickbeard
+
 
 you can chane these to anything, even a FQDN if you want.
 
